@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.14.208
+- hosts: server1
   become: yes
   tasks:
     - name: ensure nginx is at the latest version
